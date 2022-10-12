@@ -13,9 +13,10 @@ public class PaintablePanel extends SizedPanel {
         pa.paintTo(g);
     }
 
-public static void main(String[]args){
- ShowInFrame.show(new PaintablePanel(new PaintableOval(100, 50, 30, 50)))
+    public static void main(String[] args) {
+        ShowInFrame.show(new PaintablePanel(new PaintableOval(100, 50, 30, 50)));
+        ShowInFrame.show(new PaintablePanel(new PaintableOval(200, 200, 130, 40)));
 
-}
+    }
 
 }
