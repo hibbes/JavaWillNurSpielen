@@ -21,10 +21,13 @@ public class MovableImage extends GeometricImage implements GameObject {
         deltaPos = new Vertex(dX, dY);
     }
 
-    public MovableImage(ImageIcon icon, double x, double y, double dX, double dY) {
-        super(icon, x, y);
-        deltaPos = new Vertex(dX, dY);
-    }
+    /*
+     * public MovableImage(ImageIcon icon, double x, double y, double dX, double dY)
+     * {
+     * super(icon, x, y);
+     * deltaPos = new Vertex(dX, dY);
+     * }
+     */
 
     public void move() {
         pos.addMod(deltaPos);
