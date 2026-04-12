@@ -85,16 +85,16 @@ public class Vertex {
     }
 
     /**
-     * Addiert einen Vektor in-place (verändert nur x, nicht y – möglicherweise Bug?).
+     * Addiert einen Vektor in-place (modifiziert diesen Vertex).
      *
-     * <p><b>Achtung:</b> Diese Methode verändert nur {@code this.x}, nicht {@code this.y}.
-     * Wahrscheinlich fehlt {@code this.y = y + v2.y;} – bitte prüfen.</p>
+     * <p>Beide Komponenten werden addiert. (Frühere Version hatte einen
+     * Bug: nur die x-Komponente wurde aktualisiert.)</p>
      *
      * @param v2 zu addierender Vektor
      */
     public void addMod(Vertex v2) {
         this.x = x + v2.x;
-        // TODO: this.y = y + v2.y; ?
+        this.y = y + v2.y;
     }
 
     /** @return X-Koordinate */
