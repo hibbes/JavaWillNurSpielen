@@ -41,5 +41,5 @@ Konkrete Formen:
 
 ## Verwandte Repos
 
-- **`zock_reference`** – vollständige Referenzimplementierung mit Packages (name.czernohous.zock_2016)
+- **`zock_reference`** – vollständige Referenzimplementierung mit Packages (`homo.ludens`)
 - **`JWNS26`** – aktuellste Version (2026), weitere Formen ergänzt
